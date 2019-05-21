@@ -3,12 +3,12 @@ var RTCPeerConnection = window.webkitRTCPeerConnection;
 
 // using  paid plan
 var config = {
-    apiKey: "AIzaSyAjyh0rJhNGRu9FsmTK_lWPDK252Dp0h7M",
-    authDomain: "webrtcautotest.firebaseapp.com",
-    databaseURL: "https://webrtcautotest.firebaseio.com",
-    projectId: "webrtcautotest",
-    storageBucket: "webrtcautotest.appspot.com",
-    messagingSenderId: "962823314946"
+    apiKey: "AIzaSyDVhw8rhU167ALWQSTK01NnYIijkGr0SdA",
+    authDomain: "netwebrtc.firebaseapp.com",
+    databaseURL: "https://netwebrtc.firebaseio.com",
+    projectId: "netwebrtc",
+    storageBucket: "netwebrtc.appspot.com",
+    messagingSenderId: "142979039811"
   };
 
 firebase.initializeApp(config);
