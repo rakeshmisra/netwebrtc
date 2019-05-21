@@ -17,7 +17,7 @@ var enable_video = true;
 var enable_audio = false;
 var database = firebase.database().ref();
 var storageRef = firebase.storage().ref();
-var storage = firebase.app().storage("gs://netwebrtc");
+var storage = firebase.app().storage("gs://netwebrtc.appspot.com");
 var storageRef = storage.ref();
 
 //var friendsVideo = document.getElementById("friendsVideo");
