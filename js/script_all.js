@@ -169,7 +169,7 @@ function getStats(){
   // send all to storage rather than send to database frequently
   //sendMessage( 's'.concat(window.yourId), JSON.stringify(mreport) + '$' + JSON.stringify(googStats) );
   current_report = 's'.concat(window.yourId) + '$' + JSON.stringify(mreport) + '$' + JSON.stringify(googStats)
-  //all_message += current_report + "\r\n";
+  all_message += current_report + "\r\n";
 
   // extract useful stats
   var kpi = [];
