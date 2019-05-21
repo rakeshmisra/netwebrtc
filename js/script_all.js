@@ -45,15 +45,15 @@ var all_message = ""  //getStats() will add stats to all_message
 if (role == "desktop") {
   console.log("Start videoconf in 8 seconds.")
   setTimeout( function() { showFriendsFace(); }, 8000) }
-/*
+
 // Automatically upload all stats after 100+N seconds (N seconds extra to ensure completeness of data)
 var file_path = "/" + role + "/" + yourId.toString() + ".txt"   
 var ref = storageRef.child(file_path)
 setTimeout( function() {
 ref.putString(all_message).then(function(snapshot) {
   console.log('Uploaded stats!');}); 
-}, 140000 )
-*/
+}, 14000 ) // ms
+
 
 function sendMessage(senderId, data) {
     var msg = database.push({ sender: senderId, message: data });
