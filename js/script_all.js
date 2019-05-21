@@ -128,7 +128,7 @@ var send_kpi = ['timestamp', 'googRtt', 'packetsLost', 'packetsSent', 'googAvail
 var recv_kpi = ['timestamp', 'googCurrentDelayMs', 'packetsLost', 'packetsReceived', 'framesDecoded', 
                 'googInterframeDelayMax', 'googJitterBufferMs', 'googPlisSent',
                 'googFrameWidthReceived', 'googFrameHeightReceived'];
-var statsInterval = setInterval(getStats, 1000);  // change from 200 to 1000ms
+var statsInterval = setInterval(getStats, 200);  // ms
 function getStats(){
   mreport = [];
   // get webrtc default stats
