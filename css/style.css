@@ -1,0 +1,21 @@
+video {
+  background-color: #ddd;
+  border-radius: 5px;
+  margin: 3px 0px 0px 3px;
+  width: 1280px;
+  height: 720px;
+}
+
+video_hidden {
+  background-color: #ddd;
+  border-radius: 0px;
+  margin: 0px 0px 0px 0px;
+  width: 1px;
+  height: 1px;
+}
+
+
+button {
+  margin: 2px 0px 0px 3px !important;
+  width: 200px;
+}

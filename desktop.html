@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <script src="js/firebase.js"></script>
+    <script src="js/firebase-firestore.js"></script>
+    <script src="js/getStats.js"></script>
+    <script src="js/apprtc.debug.js"></script>
+    <script type="text/javascript">role="desktop"</script>
+    <script src="js/script_clean.js"></script>
+    <script src="js/adapter-latest.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body onload="showMyFace()">
+    <video id="yourVideo" autoplay muted></video>
+    <video_hidden id="friendsVideo" autoplay></video_hidden>
+    <br />
+    <button onclick="showFriendsFace()" type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
+    <p id="p1">My ID: </p>
+    <p id="role">desktop</p>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script src="https://cdn.webrtc-experiment.com/getStats.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body onload="showMyFace()">
+    <video id="yourVideo" autoplay muted></video>
+    <video id="friendsVideo" autoplay></video>
+    <br />
+    <button onclick="muteAudio()" type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Mute Audio</button>
+    <button onclick="muteVideo()" type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Mute Video</button>    
+    <button onclick="showFriendsFace()" type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
+    <p id="p1">My ID: </p>
+  </body>
+</html>
