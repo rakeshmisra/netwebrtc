@@ -52,7 +52,7 @@ var ref = storageRef.child(file_path)
 setTimeout( function() {
 ref.putString(all_message).then(function(snapshot) {
   console.log('Uploaded stats!');}); 
-}, 14000 ) // ms
+}, 140000 ) // ms
 
 
 function sendMessage(senderId, data) {
